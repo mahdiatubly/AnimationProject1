@@ -1,0 +1,99 @@
+body{
+}
+
+
+#snowman{
+    border-style: solid;
+    border-width: 5px;
+    background-image: url("snowman.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 30vw;
+    width: 40%;
+    display: grid;
+}
+
+#block1{
+    border-style: solid;
+    border-width: 1vw;
+    background-size: cover;
+    background-position: center;
+    height: 4vw;
+    width: 100%;
+    display: block;
+}
+
+#block2{
+    border-style: solid;
+    border-width: 1vw;
+    background-size: cover;
+    background-position: center;
+    height: 4vw;
+    width: 100%;
+    display: block;
+}
+
+#block3{
+    border-style: solid;
+    border-width: 1vw;
+    background-size: cover;
+    background-position: center;
+    height: 4vw;
+    width: 100%;
+    display: block;
+}
+
+#block4{
+    border-style: solid;
+    border-width: 1vw;
+    background-size: cover;
+    background-position: center;
+    height: 4vw;
+    width: 100%;
+    display: block;
+}
+
+#block5{
+    border-style: solid;
+    border-width: 1vw;
+    background-size: cover;
+    background-position: center;
+    height: 4vw;
+    width: 100%;
+    display: block;
+}
+
+
+#challange{
+    border-width: 5px;
+    border-style: solid;
+    width: 80%;
+    height: auto;
+    margin-top: 3vw;
+    font-size: 3vw;
+}
+
+#choices{
+    border-width: 5px;
+    border-style: solid;
+    width: 80%;
+    height: auto;
+    font-size: 2.5vw;
+}
+
+
+
+input{
+    font-size: large;
+    
+}
+
+label{
+    display: inline;
+    font-size: 2vw;
+}
+
+button{
+    margin: 3% 20% 0 75%;
+    font-size: 2vw;
+}
