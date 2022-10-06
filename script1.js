@@ -97,7 +97,6 @@ function action(){
     @return: -
     @parameters: -
 */ 
-fun
 function reset(){
     questNum = 1
     counter = 0
