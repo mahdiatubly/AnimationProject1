@@ -3,6 +3,8 @@ let challanges = ["What are the two types of Old English poetry?", "How many dip
 let questNum = 1
 let counter = 0
 
+let myMusic= document.getElementById("music")
+myMusic.play();
 let quest = document.getElementById('challange')
 quest.innerText = challanges[0]
 let body = document.querySelector('body')

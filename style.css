@@ -164,17 +164,21 @@ label{
     animation-iteration-count: 2;
     animation-direction: alternate-reverse;
 }
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
+
+.imgContainer1{
+    width: 70%;
+    height: 40vw;
+    background-image: url('melted.jpg');
+    background-size: cover;
+    margin: auto;  
+    margin-top: 5%;
+    position: relative; 
+    animation-name: slidein;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+}
+
 
 h2{
     text-align: center;
@@ -200,15 +204,5 @@ h2{
     }
   }
 
-/* @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  } */
+
   
