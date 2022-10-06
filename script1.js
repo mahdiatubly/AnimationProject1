@@ -1,17 +1,36 @@
+//The questions list
 let challanges = ["What are the two types of Old English poetry?", "How many diphthongs are there in the English language?", "What is a female writer called?", "Supportive terms such as `oh` and `really` are called what?", "Where a speaker is completely blunt and direct (e.g. `Sit down!`) is called what?"]
 
+//A global var. used to follow the question number
 let questNum = 1
+
+//A global var. used to define the wining and losing conditions
 let counter = 0
 
+//Running music in the game background
 let myMusic= document.getElementById("music")
 myMusic.play();
+
+//Grapping the question's box and setting the first question
 let quest = document.getElementById('challange')
 quest.innerText = challanges[0]
+
+//Grapping the body of the page and the labels of the choices buttons
 let body = document.querySelector('body')
 let newlabel1 = document.querySelector('#choice1')
 let newlabel2 = document.querySelector('#choice2')
 let newlabel3 = document.querySelector('#choice3')
 
+/*This is a void function uses to check the user's answers and remove a 
+  part of the snowman picture if the answer is wrong.
+    @return: -
+    @parameters:
+        - ans: a boolean value returned by checking if the box of the correct
+          answer chose or not 
+        - newquest: the next question
+        - newchoices1: the first choice providede to the new question
+        - newchoices2: the second choice providede to the new question
+        - newchoices3: the third choice providede to the new question*/    
 function checkAns(ans, newquest, newchoices1, newchoices2, newchoices3){
         if(ans === true){
             counter += 1
@@ -29,6 +48,10 @@ function checkAns(ans, newquest, newchoices1, newchoices2, newchoices3){
         }
 }
 
+/*This is a void function uses to respond to clicking the check button.
+    @return: -
+    @parameters: -
+*/ 
 function action(){
     if(questNum === 1){
         let ans = document.getElementById('c1').checked
@@ -68,6 +91,13 @@ function action(){
     }
 }
 
+/*This is a void function uses to respond to clicking the reset button.
+  The function will return the game to the first question and return
+  the full snowman's picture.
+    @return: -
+    @parameters: -
+*/ 
+fun
 function reset(){
     questNum = 1
     counter = 0
@@ -97,6 +127,7 @@ function reset(){
     link.href = '#'
 }
 
+//Adding listeners to the buttons of the game.
 document.getElementById('check').addEventListener('click',action);
 document.getElementById('reset').addEventListener('click',reset);
 

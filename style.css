@@ -74,7 +74,7 @@ body{
     border-width: 5px;
     width: 80%;
     height: auto;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     margin: auto;
     margin-top: 3%;
     margin-bottom: 1%;
@@ -86,13 +86,14 @@ body{
     width: 80%;
     height: auto;
     padding: .8vw;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     margin: auto;
 }
 
 h1{
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 3vw;
+    margin-top: 0;
 }
 
 input{
@@ -102,7 +103,7 @@ input{
 
 label{
     display: inline;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     padding-top: 1.5vw;
 }
 
@@ -159,7 +160,7 @@ label{
     margin: auto;  
     margin-top: 5%;
     position: relative; 
-    animation-name: slidein;
+    animation-name: example;
     animation-duration: 5s;
     animation-iteration-count: 2;
     animation-direction: alternate-reverse;
@@ -173,12 +174,11 @@ label{
     margin: auto;  
     margin-top: 5%;
     position: relative; 
-    animation-name: slidein;
+    animation-name: example;
     animation-duration: 5s;
     animation-iteration-count: 2;
     animation-direction: alternate-reverse;
 }
-
 
 h2{
     text-align: center;
